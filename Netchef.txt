@@ -1,0 +1,6 @@
+<h1> NETCHEF</H1>
+
+<BR>
+
+<ul>Site de vídeos de gastronomia, divididos por categoria.
+<ul>Reproduz o vídeo diretamente do youtube, não prejudicando o autor, e sim organizando os vídeos para um assunto.
