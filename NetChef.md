@@ -1,5 +1,6 @@
-<h1> NET CHEF
+# NetChef
 
-<ul> Desafio NetFlix da DIO.
-<ul> Site de streaming de vídeos de gastronomia.
+### DESAFIO NETFLIX DA DIO
+Desafio NetFlix da DIO.
+Site de streaming de vídeos de gastronomia.
 
