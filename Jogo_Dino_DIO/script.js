@@ -27,10 +27,12 @@ function jump() {
                 if (position <= 0) {
                     clearInterval(downInterval);
                     isJumping = false;
+                    
 
                 } else {                
                   position -= 20;
                   dino.style.bottom = position + 'px';
+                  
                 }
 
 
@@ -58,12 +60,16 @@ function createCactus() {
     cactus.classList.add('cactus');
     cactus.style.left = 1000 + 'px';
     background.appendChild(cactus);
+    
 
     let leftInterval = setInterval(() => {
         
         if (cactusPosition < -60) {
             clearInterval(leftInterval);
             background.removeChild(cactus);
+           
+            
+            
         } else if (cactusPosition > 0 && cactusPosition < 60 && position < 60) {
             //gameover
             clearInterval(leftInterval);
@@ -72,16 +78,20 @@ function createCactus() {
             
           cactusPosition -= 10;
           cactus.style.left = cactusPosition + 'px';
+          
             
         }
 
     }, 20);
 
     setTimeout(createCactus, randomTime);
+    
 
 }
 
 createCactus();
 document.addEventListener('keyup', handleKeyUp);
+
+
 
 
